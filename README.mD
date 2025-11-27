@@ -1,67 +1,41 @@
-# 🧑‍💼 Employee Task Tracker  
-A modern, responsive, single-page Employee Task Tracking application built using **React**, **Vite**, **TypeScript**, **TailwindCSS**, and deployed on **Vercel**.
+# 🧑‍💼 Employee Task Tracker
 
-Live Demo: **https://employee-tracker-orcin.vercel.app/**
+A responsive single-page web application for managing employee tasks.  
+The project is built using **React**, **Vite**, **TypeScript**, and **Tailwind CSS**, with mock JSON data (no backend).  
+Deployed using **Vercel**.
+
+Live Demo: https://employee-tracker-orcin.vercel.app/
 
 ---
 
 ## 📌 Project Overview
-The Employee Task Tracker helps teams monitor tasks assigned to each employee.  
-It provides:
 
-- A dashboard summary of all tasks  
-- Filters to sort tasks based on status  
-- A clean UI with color-coded task badges  
-- A modal to add new tasks  
-- Fully responsive layout  
+This app allows users to:
 
-Designed with modern UI principles for startups and internal teams.
+- View employees and their assigned tasks  
+- Filter tasks by status (All / Completed / In Progress / Pending)  
+- Add new tasks (frontend only)  
+- View dashboard summary (total tasks, completion %, pending, etc.)  
 
----
-
-## 🚀 Features
-
-### ✔ Dashboard Summary  
-- Total Tasks  
-- Completed Percentage  
-- Pending Count  
-- In-Progress Count  
-
-### ✔ Task Filtering  
-Filter tasks globally by:
-- **All**
-- **Completed**
-- **In Progress**
-- **Pending**
-
-### ✔ Employee Cards  
-Each employee card includes:
-- Name & Role  
-- Task list  
-- Status badges (colored)
-
-### ✔ Add Task Modal  
-Allows adding a new task with:
-- Employee selection  
-- Task title  
-- Status (Pending / In Progress / Completed)
-
-### ✔ Fully Responsive  
-Works smoothly on desktop, tablet, and mobile.
+It is designed as part of a frontend development assignment and focuses on clean UI, interactivity, and component-based architecture.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Frameworks & Libraries Used
 
-| Category | Technology |
-|---------|------------|
-| Frontend Framework | React + Vite |
-| Language | TypeScript |
-| Styling | Tailwind CSS |
+| Purpose | Technology |
+|--------|------------|
+| Frontend Framework | **React (Vite)** |
+| Language | **TypeScript** |
+| Styling | **Tailwind CSS** |
 | Icons | Heroicons |
-| Deployment | Vercel |
-| Package Manager | npm |
+| State Management | React Hooks (useState, useEffect) |
+| Deployment | **Vercel** |
 
 ---
 
-## 📁 Folder Structure
+## ⚙️ Project Setup Instructions
+
+### **1. Clone the Repository**
+```sh
+git clone https://github.com/Yashwanth2004-IN/EMPLOYEE_TRACKER.git
